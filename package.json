@@ -1,0 +1,22 @@
+{
+  "name": "cpu-pipeline-simulator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A five-stage CPU pipeline you can watch chase hazards, in the browser",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest --run"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vite": "^5.4.19",
+    "vitest": "^2.1.9"
+  }
+}
